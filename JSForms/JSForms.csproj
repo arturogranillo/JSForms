@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{6C5F7F7B-9A1C-4F0D-834E-2C3B0932B525}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>1.8</TypeScriptToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="packages.config" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="Scripts\jquery-2.0.3.intellisense.js" />
+    <Content Include="Scripts\jquery-2.0.3.js" />
+    <Content Include="Scripts\jquery-2.0.3.min.js" />
+    <Content Include="Scripts\jquery-2.0.3.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Forms\Button.ts" />
+    <TypeScriptCompile Include="Forms\NavBar.ts" />
+    <TypeScriptCompile Include="Forms\PanelForm.ts" />
+    <TypeScriptCompile Include="Forms\Panel.ts" />
+    <TypeScriptCompile Include="Forms\Cell.ts" />
+    <TypeScriptCompile Include="Forms\NavSubItem.ts" />
+    <TypeScriptCompile Include="Forms\NavItem.ts" />
+    <TypeScriptCompile Include="Forms\Navs.ts" />
+    <TypeScriptCompile Include="Forms\Pills.ts" />
+    <TypeScriptCompile Include="Forms\Tabs.ts" />
+    <TypeScriptCompile Include="Forms\Container.ts" />
+    <TypeScriptCompile Include="Forms\Utils.ts" />
+    <TypeScriptCompile Include="Html\Base.ts" />
+    <TypeScriptCompile Include="Html\Button.ts" />
+    <TypeScriptCompile Include="Html\FieldSet.ts" />
+    <TypeScriptCompile Include="Html\Nav.ts" />
+    <TypeScriptCompile Include="Html\TableBody.ts" />
+    <TypeScriptCompile Include="Html\TableHead.ts" />
+    <TypeScriptCompile Include="Html\Table.ts" />
+    <TypeScriptCompile Include="Html\Legend.ts" />
+    <TypeScriptCompile Include="Html\Form.ts" />
+    <TypeScriptCompile Include="Html\InputPassword.ts" />
+    <TypeScriptCompile Include="Html\InputDate.ts" />
+    <TypeScriptCompile Include="Html\InputNumber.ts" />
+    <TypeScriptCompile Include="Html\InputText.ts" />
+    <TypeScriptCompile Include="Html\Input.ts" />
+    <TypeScriptCompile Include="Html\Link.ts" />
+    <TypeScriptCompile Include="Html\ListItem.ts" />
+    <TypeScriptCompile Include="Html\Select.ts" />
+    <TypeScriptCompile Include="Html\TableCell.ts" />
+    <TypeScriptCompile Include="Html\TableHeaderCell.ts" />
+    <TypeScriptCompile Include="Html\TableRow.ts" />
+    <TypeScriptCompile Include="Html\UnorderedList.ts" />
+    <TypeScriptCompile Include="Html\Div.ts" />
+    <TypeScriptCompile Include="Forms\Form.ts" />
+    <TypeScriptCompile Include="Forms\FormGroup.ts" />
+    <TypeScriptCompile Include="Forms\GridColumn.ts" />
+    <TypeScriptCompile Include="Forms\GridControl.ts" />
+    <TypeScriptCompile Include="Html\Label.ts" />
+    <TypeScriptCompile Include="Forms\MessageBox.ts" />
+    <TypeScriptCompile Include="Forms\Row.ts" />
+    <TypeScriptCompile Include="Forms\ComboBox.ts" />
+    <TypeScriptCompile Include="Html\Option.ts" />
+    <TypeScriptCompile Include="Forms\GridCell.ts" />
+    <TypeScriptCompile Include="Forms\GridHeaderCell.ts" />
+    <TypeScriptCompile Include="Forms\GridRow.ts" />
+    <TypeScriptCompile Include="Forms\Enums.ts" />
+    <TypeScriptCompile Include="Scripts\typings\bootstrap\bootstrap.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>JSForms</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64510</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:64510/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptRemoveComments>True</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptJSXEmit>None</TypeScriptJSXEmit>
+    <TypeScriptCompileOnSaveEnabled>False</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptNoImplicitAny>True</TypeScriptNoImplicitAny>
+    <TypeScriptModuleKind>None</TypeScriptModuleKind>
+    <TypeScriptOutFile>..\Demo\Scripts\JSForms\JSForms.js</TypeScriptOutFile>
+    <TypeScriptOutDir />
+    <TypeScriptGeneratesDeclarations>True</TypeScriptGeneratesDeclarations>
+    <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
+    <TypeScriptMapRoot />
+    <TypeScriptSourceRoot />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptRemoveComments>True</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>True</TypeScriptSourceMap>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptJSXEmit>None</TypeScriptJSXEmit>
+    <TypeScriptCompileOnSaveEnabled>False</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptNoImplicitAny>True</TypeScriptNoImplicitAny>
+    <TypeScriptModuleKind>None</TypeScriptModuleKind>
+    <TypeScriptOutFile>lib\JSForms.js</TypeScriptOutFile>
+    <TypeScriptOutDir />
+    <TypeScriptGeneratesDeclarations>True</TypeScriptGeneratesDeclarations>
+    <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
+    <TypeScriptMapRoot />
+    <TypeScriptSourceRoot />
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+</Project>
